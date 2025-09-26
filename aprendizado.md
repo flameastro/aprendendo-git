@@ -8,6 +8,9 @@ git log - Exibe o histórico das modificações
 git add [arquivo1] [arquivo2] - Adiciona apenas arquivos especificos
 git add . - Adiciona todos os arquivos modificados
 
+# CLONAR -> CLONE
+git clone [repositório]
+
 # COMMITAR -> COMMIT
 git commit -m ["Mensagem"] - Commit e a mensagem
 
