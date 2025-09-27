@@ -1,23 +1,37 @@
 # INFORMAÇÕES -> STATUS
-git status - Exibe as informações do repositório (commits que faltam, pushs, branch tual, etc)
+``` bash
+git status  # Exibe as informações do repositório (commits que faltam, pushs, branch tual, etc)
+```
 
 # HISTÓRICO -> LOG
-git log - Exibe o histórico das modificações
+``` bash
+git log  # Exibe o histórico das modificações
+```
 
 # ADICIONAR -> ADD
-git add [arquivo1] [arquivo2] - Adiciona apenas arquivos especificos
-git add . - Adiciona todos os arquivos modificados
+``` bash
+git add [arquivo1] [arquivo2]  # Adiciona apenas arquivos especificos
+git add .  # Adiciona todos os arquivos modificados
+```
 
 # CLONAR -> CLONE
+``` bash
 git clone [repositório]
+```
 
 # COMMITAR -> COMMIT
+``` bash
 git commit -m ["Mensagem"] - Commit e a mensagem
+```
 
 # ENVIO -> PUSH
+``` bash
 git push - Envia as modificações para o GitHub
+```
 
 # RAMIFICAÇÕES -> BRANCHES
-git branch - Exibe as branches
+``` bash
+git  branch - Exibe as branches
 git checkout [nome da branch] - Troca de branch
 git branch -D [nome da branch] - Remove a branch localmente
+```
