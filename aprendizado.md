@@ -36,6 +36,8 @@ git push origin --set-upstream [nome da branch]  # Envia modificações quando a
 git branch  # Exibe as branches
 git checkout [nome da branch]  # Troca de branch
 git branch -D [nome da branch]  # Remove a branch localmente
+git push origin --delete [nome da branch]  # Remove a branch pelo GitHub
+git branch -b [nome da branch]  # Cria uma branch e automaticamente troca de branch
 ```
 
 ## UNIÃO/MESCLAGEM -> MERGE
@@ -48,8 +50,8 @@ git merge (nome da branch)  # Mescka duas branchs; Nota: Não pode mesclar uma b
 git pull  # Coleta todos os arquivos e pastas que o repositório local não possui
 ```
 
-
 ---
+
 # OUTROS
 
 ## IGNORAR -> .gitignore
