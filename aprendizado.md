@@ -45,3 +45,14 @@ git merge (nome da branch)  # Mescka duas branchs; Nota: Não pode mesclar uma b
 ``` bash
 git pull  # Coleta todos os arquivos e pastas que o repositório local não possui
 ```
+
+
+---
+# OUTROS
+
+# IGNORAR -> .gitignore
+``` .gitignore
+*.txt
+database
+node_modules
+```
