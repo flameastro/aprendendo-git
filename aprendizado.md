@@ -1,47 +1,47 @@
-# INFORMAÇÕES -> STATUS
+## INFORMAÇÕES -> STATUS
 ``` bash
 git status  # Exibe as informações do repositório (commits pendentes, pushs, branch tual, etc)
 ```
 
-# HISTÓRICO -> LOG
+## HISTÓRICO -> LOG
 ``` bash
 git log  # Exibe o histórico das modificações
 ```
 
-# ADICIONAR -> ADD
+## ADICIONAR -> ADD
 ``` bash
 git add [arquivo1] [arquivo2]  # Adiciona apenas arquivos especificos
 git add .  # Adiciona todos os arquivos modificados
 ```
 
-# CLONAR -> CLONE
+## CLONAR -> CLONE
 ``` bash
 git clone [https://github.com/username/repository.git]  # Clona um repositório
 ```
 
-# COMMITAR -> COMMIT
+## COMMITAR -> COMMIT
 ``` bash
 git commit -m "Mensagem"  # Envia um commit, um contexto da feature
 ```
 
-# ENVIO -> PUSH
+## ENVIO -> PUSH
 ``` bash
 git push  # Envia as modificações para o GitHub
 ```
 
-# RAMIFICAÇÕES -> BRANCHES
+## RAMIFICAÇÕES -> BRANCHES
 ``` bash
 git branch  # Exibe as branches
 git checkout [nome da branch]  # Troca de branch
 git branch -D [nome da branch]  # Remove a branch localmente
 ```
 
-# UNIÃO/MESCLAGEM -> MERGE
+## UNIÃO/MESCLAGEM -> MERGE
 ``` bash
 git merge (nome da branch)  # Mescka duas branchs; Nota: Não pode mesclar uma branch que você já está
 ```
 
-# PUXAR -> PULL
+## PUXAR -> PULL
 ``` bash
 git pull  # Coleta todos os arquivos e pastas que o repositório local não possui
 ```
@@ -50,7 +50,7 @@ git pull  # Coleta todos os arquivos e pastas que o repositório local não poss
 ---
 # OUTROS
 
-# IGNORAR -> .gitignore
+## IGNORAR -> .gitignore
 ``` .gitignore
 *.txt
 database
