@@ -6,6 +6,7 @@ git status  # Exibe as informações do repositório (commits pendentes, pushs, 
 ## HISTÓRICO -> LOG
 ``` bash
 git log  # Exibe o histórico das modificações
+git reflog  # Exibe o histórico das modificações mais brevemente e compactado
 ```
 
 ## ADICIONAR -> ADD
