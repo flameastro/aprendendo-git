@@ -31,7 +31,12 @@ git push  # Envia as modificações para o GitHub
 
 # RAMIFICAÇÕES -> BRANCHES
 ``` bash
-git  branch  # Exibe as branches
+git branch  # Exibe as branches
 git checkout [nome da branch]  # Troca de branch
 git branch -D [nome da branch]  # Remove a branch localmente
+```
+
+# UNIÃO/MESCLAGEM -> MERGE
+``` bash
+git merge (nome da branch)  # Mescka duas branchs; Nota: Não pode mesclar uma branch que você já está
 ```
