@@ -10,9 +10,7 @@ Todos os meus aprendizados de git podem ser visto [aqui](aprendizado.md) ou em h
 
 ## Estruturação
 Cada comando foi divido na seguinte *estrutura* ou *seção*:
-    ``` txt
-    # TÍTULO
-    ``` bash
-    <comando>  # Explicação
-    ```
+``` txt
+# TÍTULO
+<comando>  # Explicação
 ```
