@@ -40,3 +40,8 @@ git branch -D [nome da branch]  # Remove a branch localmente
 ``` bash
 git merge (nome da branch)  # Mescka duas branchs; Nota: Não pode mesclar uma branch que você já está
 ```
+
+# PUXAR -> PULL
+``` bash
+git pull  # Coleta todos os arquivos e pastas que o repositório local não possui
+```
