@@ -28,7 +28,7 @@ git commit -m "Mensagem"  # Envia um commit, um contexto da feature
 ## ENVIO -> PUSH
 ``` bash
 git push  # Envia as modificações para o GitHub
-git push origin --set-upstream [nome da branch]  # Envia modificações quando a branch não existe
+git push --set-upstream origin [nome da branch]  # Envia modificações quando a branch não existe
 ```
 
 ## RAMIFICAÇÕES -> BRANCHES
