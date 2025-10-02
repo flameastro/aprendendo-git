@@ -23,6 +23,7 @@ git clone [https://github.com/username/repository.git]  # Clona um repositório
 ## COMMITAR -> COMMIT
 ``` bash
 git commit -m "Mensagem"  # Envia um commit, um contexto da feature
+git commit --amend -m "Mensagem"  # Altera o commit anterior
 ```
 
 ## ENVIO -> PUSH
