@@ -35,6 +35,7 @@ git push --set-upstream origin [nome da branch]  # Envia modificações quando a
 ## RAMIFICAÇÕES -> BRANCHES
 ``` bash
 git branch  # Exibe as branches
+git branch [nome da branch]  # Cria uma branch
 git checkout [nome da branch]  # Troca de branch
 git branch -D [nome da branch]  # Remove a branch localmente
 git push origin --delete [nome da branch]  # Remove a branch pelo GitHub
